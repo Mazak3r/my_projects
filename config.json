@@ -1,0 +1,35 @@
+{
+  "credentials": {
+    "username": "admin",
+    "password": "admin"
+  },
+  "olt_devices": {
+    "1": {
+      "name": "Chrome OLT",
+      "ip": "192.168.1.2",
+      "description": "Main distribution OLT - Rack 1",
+      "ports": {
+        "2": "Konoha",
+        "3": "Shibuya",
+        "5": "Vulcan"
+      }
+    },
+    "2": {
+      "name": "Toll OLT",
+      "ip": "192.168.1.5",
+      "description": "Main distribution OLT - Rack 2",
+      "ports": {
+        "2": "Tatooine",
+        "3": "Rackoon city",
+        "4": "Crypton",
+        "5": "Coruscant",
+        "6": "Soul society"
+      }
+    }
+  },
+  "monitoring": {
+    "monitor_interval": 300,
+    "session_keepalive_interval": 45,
+    "high_loss_threshold": -29
+  }
+}
